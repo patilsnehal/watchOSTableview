@@ -1,0 +1,27 @@
+ [
+  {
+  "startTime": "10:00 AM",
+  "endTime": "12:00 PM",
+  "title": "Python Meetup",
+  },
+  {
+    "startTime": "12:00 PM",
+    "endTime": "2:00 PM",
+    "title": "iOS Meetup",
+  },
+  {
+  "startTime": "2:00 PM",
+  "endTime": "4:00 PM",
+  "title": "WatchOS Meetup",
+  },
+  {
+  "startTime": "4:00 PM",
+  "endTime": "6:00 PM",
+  "title": "Android Meetup",
+  },
+  {
+  "startTime": "6:00 PM",
+  "endTime": "8:00 PM",
+  "title": "Java Meetup",
+  }
+]

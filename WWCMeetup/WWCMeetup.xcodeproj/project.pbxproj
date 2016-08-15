@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB8FB2891D5E7B3E006B1CB5 /* MeetupRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8FB2881D5E7B3E006B1CB5 /* MeetupRowController.swift */; };
+		CB8FB28F1D5E7C0E006B1CB5 /* Meetup.json in Resources */ = {isa = PBXBuildFile; fileRef = CB8FB28D1D5E7C0E006B1CB5 /* Meetup.json */; };
+		CB8FB2901D5E7C0E006B1CB5 /* Meetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8FB28E1D5E7C0E006B1CB5 /* Meetup.swift */; };
+		CB8FB2911D5E8EE1006B1CB5 /* Meetup.json in Resources */ = {isa = PBXBuildFile; fileRef = CB8FB28D1D5E7C0E006B1CB5 /* Meetup.json */; };
+		CB8FB2921D5E8EE4006B1CB5 /* Meetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8FB28E1D5E7C0E006B1CB5 /* Meetup.swift */; };
+		CB8FB2961D5E9576006B1CB5 /* MeetupInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8FB2951D5E9576006B1CB5 /* MeetupInterfaceController.swift */; };
+		CB8FB2981D5E9987006B1CB5 /* StaticMap.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8FB2971D5E9987006B1CB5 /* StaticMap.png */; };
+		CBA965F81D5E68AA00B1696F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA965F71D5E68AA00B1696F /* AppDelegate.swift */; };
+		CBA965FA1D5E68AA00B1696F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA965F91D5E68AA00B1696F /* ViewController.swift */; };
+		CBA965FD1D5E68AA00B1696F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA965FB1D5E68AA00B1696F /* Main.storyboard */; };
+		CBA965FF1D5E68AA00B1696F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA965FE1D5E68AA00B1696F /* Assets.xcassets */; };
+		CBA966021D5E68AA00B1696F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA966001D5E68AA00B1696F /* LaunchScreen.storyboard */; };
+		CBA966071D5E68AA00B1696F /* WWCMeetup WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CBA966061D5E68AA00B1696F /* WWCMeetup WatchKit App.app */; };
+		CBA9660D1D5E68AA00B1696F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA9660B1D5E68AA00B1696F /* Interface.storyboard */; };
+		CBA9660F1D5E68AA00B1696F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA9660E1D5E68AA00B1696F /* Assets.xcassets */; };
+		CBA966161D5E68AA00B1696F /* WWCMeetup WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBA966151D5E68AA00B1696F /* WWCMeetup WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CBA9661D1D5E68AA00B1696F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA9661C1D5E68AA00B1696F /* ExtensionDelegate.swift */; };
+		CBA9661F1D5E68AA00B1696F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA9661E1D5E68AA00B1696F /* Assets.xcassets */; };
+		CBA9662F1D5E72DE00B1696F /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA9662E1D5E72DE00B1696F /* ScheduleInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBA966081D5E68AA00B1696F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA965EC1D5E68AA00B1696F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA966051D5E68AA00B1696F;
+			remoteInfo = "WWCMeetup WatchKit App";
+		};
+		CBA966171D5E68AA00B1696F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA965EC1D5E68AA00B1696F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA966141D5E68AA00B1696F;
+			remoteInfo = "WWCMeetup WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBA966261D5E68AA00B1696F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CBA966161D5E68AA00B1696F /* WWCMeetup WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA9662A1D5E68AA00B1696F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CBA966071D5E68AA00B1696F /* WWCMeetup WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB8FB2881D5E7B3E006B1CB5 /* MeetupRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupRowController.swift; sourceTree = "<group>"; };
+		CB8FB28D1D5E7C0E006B1CB5 /* Meetup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Meetup.json; path = Shared/Meetup.json; sourceTree = SOURCE_ROOT; };
+		CB8FB28E1D5E7C0E006B1CB5 /* Meetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Meetup.swift; path = Shared/Meetup.swift; sourceTree = SOURCE_ROOT; };
+		CB8FB2951D5E9576006B1CB5 /* MeetupInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupInterfaceController.swift; sourceTree = "<group>"; };
+		CB8FB2971D5E9987006B1CB5 /* StaticMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StaticMap.png; sourceTree = "<group>"; };
+		CBA965F41D5E68AA00B1696F /* WWCMeetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWCMeetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA965F71D5E68AA00B1696F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBA965F91D5E68AA00B1696F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBA965FC1D5E68AA00B1696F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBA965FE1D5E68AA00B1696F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBA966011D5E68AA00B1696F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBA966031D5E68AA00B1696F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA966061D5E68AA00B1696F /* WWCMeetup WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWCMeetup WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA9660C1D5E68AA00B1696F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CBA9660E1D5E68AA00B1696F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBA966101D5E68AA00B1696F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA966151D5E68AA00B1696F /* WWCMeetup WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WWCMeetup WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA9661C1D5E68AA00B1696F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CBA9661E1D5E68AA00B1696F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBA966201D5E68AA00B1696F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA9662E1D5E72DE00B1696F /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA965F11D5E68AA00B1696F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA966121D5E68AA00B1696F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB8FB28C1D5E7BF6006B1CB5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CB8FB28D1D5E7C0E006B1CB5 /* Meetup.json */,
+				CB8FB28E1D5E7C0E006B1CB5 /* Meetup.swift */,
+			);
+			name = Shared;
+			path = WWCMeetup;
+			sourceTree = "<group>";
+		};
+		CBA965EB1D5E68AA00B1696F = {
+			isa = PBXGroup;
+			children = (
+				CBA965F61D5E68AA00B1696F /* WWCMeetup */,
+				CB8FB28C1D5E7BF6006B1CB5 /* Shared */,
+				CBA9660A1D5E68AA00B1696F /* WWCMeetup WatchKit App */,
+				CBA966191D5E68AA00B1696F /* WWCMeetup WatchKit Extension */,
+				CBA965F51D5E68AA00B1696F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA965F51D5E68AA00B1696F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA965F41D5E68AA00B1696F /* WWCMeetup.app */,
+				CBA966061D5E68AA00B1696F /* WWCMeetup WatchKit App.app */,
+				CBA966151D5E68AA00B1696F /* WWCMeetup WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA965F61D5E68AA00B1696F /* WWCMeetup */ = {
+			isa = PBXGroup;
+			children = (
+				CBA965F71D5E68AA00B1696F /* AppDelegate.swift */,
+				CBA965F91D5E68AA00B1696F /* ViewController.swift */,
+				CBA965FB1D5E68AA00B1696F /* Main.storyboard */,
+				CBA965FE1D5E68AA00B1696F /* Assets.xcassets */,
+				CBA966001D5E68AA00B1696F /* LaunchScreen.storyboard */,
+				CBA966031D5E68AA00B1696F /* Info.plist */,
+			);
+			path = WWCMeetup;
+			sourceTree = "<group>";
+		};
+		CBA9660A1D5E68AA00B1696F /* WWCMeetup WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CB8FB2971D5E9987006B1CB5 /* StaticMap.png */,
+				CBA9660B1D5E68AA00B1696F /* Interface.storyboard */,
+				CBA9660E1D5E68AA00B1696F /* Assets.xcassets */,
+				CBA966101D5E68AA00B1696F /* Info.plist */,
+			);
+			path = "WWCMeetup WatchKit App";
+			sourceTree = "<group>";
+		};
+		CBA966191D5E68AA00B1696F /* WWCMeetup WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CBA9661C1D5E68AA00B1696F /* ExtensionDelegate.swift */,
+				CBA9661E1D5E68AA00B1696F /* Assets.xcassets */,
+				CBA966201D5E68AA00B1696F /* Info.plist */,
+				CBA9662E1D5E72DE00B1696F /* ScheduleInterfaceController.swift */,
+				CB8FB2881D5E7B3E006B1CB5 /* MeetupRowController.swift */,
+				CB8FB2951D5E9576006B1CB5 /* MeetupInterfaceController.swift */,
+			);
+			path = "WWCMeetup WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA965F31D5E68AA00B1696F /* WWCMeetup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA9662B1D5E68AA00B1696F /* Build configuration list for PBXNativeTarget "WWCMeetup" */;
+			buildPhases = (
+				CBA965F01D5E68AA00B1696F /* Sources */,
+				CBA965F11D5E68AA00B1696F /* Frameworks */,
+				CBA965F21D5E68AA00B1696F /* Resources */,
+				CBA9662A1D5E68AA00B1696F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA966091D5E68AA00B1696F /* PBXTargetDependency */,
+			);
+			name = WWCMeetup;
+			productName = WWCMeetup;
+			productReference = CBA965F41D5E68AA00B1696F /* WWCMeetup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBA966051D5E68AA00B1696F /* WWCMeetup WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA966271D5E68AA00B1696F /* Build configuration list for PBXNativeTarget "WWCMeetup WatchKit App" */;
+			buildPhases = (
+				CBA966041D5E68AA00B1696F /* Resources */,
+				CBA966261D5E68AA00B1696F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA966181D5E68AA00B1696F /* PBXTargetDependency */,
+			);
+			name = "WWCMeetup WatchKit App";
+			productName = "WWCMeetup WatchKit App";
+			productReference = CBA966061D5E68AA00B1696F /* WWCMeetup WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CBA966141D5E68AA00B1696F /* WWCMeetup WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA966231D5E68AA00B1696F /* Build configuration list for PBXNativeTarget "WWCMeetup WatchKit Extension" */;
+			buildPhases = (
+				CBA966111D5E68AA00B1696F /* Sources */,
+				CBA966121D5E68AA00B1696F /* Frameworks */,
+				CBA966131D5E68AA00B1696F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WWCMeetup WatchKit Extension";
+			productName = "WWCMeetup WatchKit Extension";
+			productReference = CBA966151D5E68AA00B1696F /* WWCMeetup WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA965EC1D5E68AA00B1696F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Snehal Patil";
+				TargetAttributes = {
+					CBA965F31D5E68AA00B1696F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CBA966051D5E68AA00B1696F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CBA966141D5E68AA00B1696F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CBA965EF1D5E68AA00B1696F /* Build configuration list for PBXProject "WWCMeetup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBA965EB1D5E68AA00B1696F;
+			productRefGroup = CBA965F51D5E68AA00B1696F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA965F31D5E68AA00B1696F /* WWCMeetup */,
+				CBA966051D5E68AA00B1696F /* WWCMeetup WatchKit App */,
+				CBA966141D5E68AA00B1696F /* WWCMeetup WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA965F21D5E68AA00B1696F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA966021D5E68AA00B1696F /* LaunchScreen.storyboard in Resources */,
+				CBA965FF1D5E68AA00B1696F /* Assets.xcassets in Resources */,
+				CBA965FD1D5E68AA00B1696F /* Main.storyboard in Resources */,
+				CB8FB2911D5E8EE1006B1CB5 /* Meetup.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA966041D5E68AA00B1696F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA9660F1D5E68AA00B1696F /* Assets.xcassets in Resources */,
+				CB8FB2981D5E9987006B1CB5 /* StaticMap.png in Resources */,
+				CBA9660D1D5E68AA00B1696F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA966131D5E68AA00B1696F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA9661F1D5E68AA00B1696F /* Assets.xcassets in Resources */,
+				CB8FB28F1D5E7C0E006B1CB5 /* Meetup.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA965F01D5E68AA00B1696F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA965FA1D5E68AA00B1696F /* ViewController.swift in Sources */,
+				CBA965F81D5E68AA00B1696F /* AppDelegate.swift in Sources */,
+				CB8FB2921D5E8EE4006B1CB5 /* Meetup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA966111D5E68AA00B1696F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8FB2891D5E7B3E006B1CB5 /* MeetupRowController.swift in Sources */,
+				CBA9662F1D5E72DE00B1696F /* ScheduleInterfaceController.swift in Sources */,
+				CB8FB2961D5E9576006B1CB5 /* MeetupInterfaceController.swift in Sources */,
+				CBA9661D1D5E68AA00B1696F /* ExtensionDelegate.swift in Sources */,
+				CB8FB2901D5E7C0E006B1CB5 /* Meetup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBA966091D5E68AA00B1696F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA966051D5E68AA00B1696F /* WWCMeetup WatchKit App */;
+			targetProxy = CBA966081D5E68AA00B1696F /* PBXContainerItemProxy */;
+		};
+		CBA966181D5E68AA00B1696F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA966141D5E68AA00B1696F /* WWCMeetup WatchKit Extension */;
+			targetProxy = CBA966171D5E68AA00B1696F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBA965FB1D5E68AA00B1696F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA965FC1D5E68AA00B1696F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA966001D5E68AA00B1696F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA966011D5E68AA00B1696F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA9660B1D5E68AA00B1696F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA9660C1D5E68AA00B1696F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA966211D5E68AA00B1696F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBA966221D5E68AA00B1696F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBA966241D5E68AA00B1696F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WWCMeetup WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yahoo.com.WWCMeetup.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		CBA966251D5E68AA00B1696F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WWCMeetup WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yahoo.com.WWCMeetup.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		CBA966281D5E68AA00B1696F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = WWCMeetup_WatchKit_Extension;
+				INFOPLIST_FILE = "WWCMeetup WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Yahoo.com.WWCMeetup.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		CBA966291D5E68AA00B1696F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = WWCMeetup_WatchKit_Extension;
+				INFOPLIST_FILE = "WWCMeetup WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Yahoo.com.WWCMeetup.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		CBA9662C1D5E68AA00B1696F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WWCMeetup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yahoo.com.WWCMeetup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBA9662D1D5E68AA00B1696F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WWCMeetup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yahoo.com.WWCMeetup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA965EF1D5E68AA00B1696F /* Build configuration list for PBXProject "WWCMeetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA966211D5E68AA00B1696F /* Debug */,
+				CBA966221D5E68AA00B1696F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA966231D5E68AA00B1696F /* Build configuration list for PBXNativeTarget "WWCMeetup WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA966241D5E68AA00B1696F /* Debug */,
+				CBA966251D5E68AA00B1696F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA966271D5E68AA00B1696F /* Build configuration list for PBXNativeTarget "WWCMeetup WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA966281D5E68AA00B1696F /* Debug */,
+				CBA966291D5E68AA00B1696F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA9662B1D5E68AA00B1696F /* Build configuration list for PBXNativeTarget "WWCMeetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA9662C1D5E68AA00B1696F /* Debug */,
+				CBA9662D1D5E68AA00B1696F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBA965EC1D5E68AA00B1696F /* Project object */;
+}

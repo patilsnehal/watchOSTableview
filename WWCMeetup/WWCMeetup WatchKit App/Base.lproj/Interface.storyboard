@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--WWCMeetup-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="WWCMeetup" id="AgC-eL-Hgc" customClass="ScheduleInterfaceController" customModule="WWCMeetup_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="Tj9-Ft-ygD" userLabel="MeetupTable">
+                            <items>
+                                <tableRow identifier="WWCRow" id="Gox-e4-aXt" customClass="MeetupRowController" customModule="WWCMeetup_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="39.5" alignment="left" spacing="6" id="fht-lS-Z7T">
+                                        <items>
+                                            <group width="132" height="36.5" alignment="left" layout="vertical" spacing="0.0" id="cw0-eY-YZ4">
+                                                <items>
+                                                    <label alignment="left" text="04:00 PM" textAlignment="center" id="t9s-rD-IXR">
+                                                        <fontDescription key="font" type="system" weight="semibold" pointSize="12"/>
+                                                    </label>
+                                                    <label width="123.5" height="22.5" alignment="left" text="iOS Meetup" id="wmj-fa-14c">
+                                                        <fontDescription key="font" type="system" weight="semibold" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="timeLabel" destination="t9s-rD-IXR" id="hdF-RB-SGK"/>
+                                        <outlet property="titleLabel" destination="wmj-fa-14c" id="f1M-uF-mxw"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="WWCMeetupTable" destination="Tj9-Ft-ygD" id="mSJ-Ip-Ihu"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="431" y="354"/>
+        </scene>
+        <!--Meetup-->
+        <scene sceneID="Ohe-5d-msW">
+            <objects>
+                <controller identifier="Meetup" id="F5b-3T-dU1" customClass="MeetupInterfaceController" customModule="WWCMeetup_WatchKit_Extension">
+                    <items>
+                        <label width="136" alignment="center" text="iOS Meetup" textAlignment="center" id="tGn-7x-vpF">
+                            <fontDescription key="font" type="system" weight="semibold" pointSize="16"/>
+                        </label>
+                        <label width="135.5" height="25.5" alignment="center" text="2:00pm to 4:00pm" textAlignment="center" id="Lem-IE-rq8">
+                            <fontDescription key="font" type="system" pointSize="12"/>
+                        </label>
+                        <imageView width="136" height="59" alignment="center" image="staticmap.png" id="SGk-Qf-lOY"/>
+                        <group width="136" height="50" alignment="center" verticalAlignment="center" id="HV9-0p-IGM">
+                            <items>
+                                <button width="65" height="35" alignment="left" verticalAlignment="center" title="YES" id="Y45-cl-SId"/>
+                                <button width="65" height="35" alignment="right" verticalAlignment="center" title="NO" id="InN-Lx-eiJ"/>
+                            </items>
+                        </group>
+                        <label alignment="center" text="Going?" id="IrR-mh-c6Q">
+                            <fontDescription key="font" type="system" pointSize="14"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="timeLabel" destination="Lem-IE-rq8" id="PMf-Iq-pH9"/>
+                        <outlet property="titleLabel" destination="tGn-7x-vpF" id="tZJ-eb-jKK"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="662" y="372"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+</document>
